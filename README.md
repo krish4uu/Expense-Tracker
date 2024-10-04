@@ -1,4 +1,4 @@
-# Personal Expense Tracker
+# Expense Tracker
 
 A modern personal expense tracker application built with React and Tailwind CSS. Users can add, edit, and delete expense entries while viewing a summary of their expenses.
 
@@ -31,11 +31,7 @@ Make sure you have the following installed on your machine:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/expense-tracker.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd expense-tracker
+   git clone https://github.com/krish4uu/Expense-Tracker.git
    ```
 
 ### Install Dependencies
@@ -75,3 +71,13 @@ This will open the application in your default web browser at `http://localhost:
 - Fill in the required fields and click "Save".
 - To edit an existing expense, click the "Edit" button next to the expense entry.
 - To delete an expense, click the "Delete" button next to the respective entry.
+
+## UI Images
+#### Homepage component
+<img width="1440" alt="Screen Shot 2024-10-04 at 5 12 12 PM" src="https://github.com/user-attachments/assets/b5c73bcf-35c2-4423-b209-b6f19c4b96dc">
+
+#### Form component
+<img width="1440" alt="Screen Shot 2024-10-04 at 5 12 20 PM" src="https://github.com/user-attachments/assets/c4fe2fa2-a721-455d-8d01-73176748cb85">
+
+
+
