@@ -1,0 +1,11 @@
+{
+    "expenses": [
+      {
+        "name": "Grocery",
+        "amount": "80",
+        "date": "2024-09-01",
+        "category": "Food",
+        "id": "1"
+      }
+    ]
+  }
