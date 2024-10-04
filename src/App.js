@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import AddEditExpense from './pages/AddEditExpense';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="bg-gray-900 text-white min-h-screen">
+        <div className="container max-w-screen-md  mx-auto p-4">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/add" element={<AddEditExpense />} />
+            <Route path="/edit/:id" element={<AddEditExpense />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
